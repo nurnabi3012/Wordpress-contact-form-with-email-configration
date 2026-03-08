@@ -22,7 +22,6 @@
 - PHP 8+
 - WordPress Hooks & Actions
 - Nonce Security
-- OOP-based plugin structure
 
 ---
 
@@ -37,7 +36,7 @@
 
 ## 🎯 Usage
 
-- Use shortcode `[contact_form]` on any page or post to display the form.
+- Use shortcode `[wpnc_form]` on any page or post to display the form.
 - All form submissions will be sent to the configured email.
 
 ---
@@ -52,12 +51,3 @@
 ## 🔒 Security
 
 - All form submissions use WordPress nonce verification.
-- Prevents CSRF and unauthorized submissions.
-
----
-
-## 🔮 Future Improvements
-
-- Add reCAPTCHA integration
-- Email template customization
-- AJAX-based submission without page reload
